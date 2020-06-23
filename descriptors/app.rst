@@ -42,7 +42,7 @@ Pattern **${appId}.${facetId}**. "*" instead of any id means 'all' plugins or fa
 **String[] forbiddenFacetWildcards (optional)** - facets patterns to exclude this app from the channel settings.
 Pattern **${appId}.${facetId}**. "*" instead of any id means 'all' plugins or facet.
 
-**Map<String:status, SettingFormDescriptor[]> forms (required) - forms to show in channel settings for one of four statuses (notInstalled, installed, activated, unsorted)
+**Map<String:status, SettingFormDescriptor[]> forms (required)** - forms to show in channel settings for one of four statuses (notInstalled, installed, activated, unsorted)
 
 SettingFormDescriptor
 ######################
@@ -54,6 +54,13 @@ Pattern **${appId}.${facetId}**. "*" instead of any id means 'all' plugins or fa
 Pattern **${appId}.${facetId}**. "*" instead of any id means 'all' plugins or facet.
 
 **String visibilityCondition (required)** - facets patterns to exclude this app from the channel settings.
+
+**String icon (required)** - icon to show in the channel settings. Pattern: **"plugin:${appId}:${assetFileName}.svg"**
+
+**String description (required)** - description to show in the channel settings.
+
+**DialogWindowComponentDto[] items (required)** - frontend components to build settings form
+
 
 
 

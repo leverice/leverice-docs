@@ -24,7 +24,6 @@ So, you do not need hosting or any external application to execute your business
    :caption: Resources:
 
    descriptors/app.rst
-   descriptors/channel-type.rst
 
 Indices and tables
 ==================

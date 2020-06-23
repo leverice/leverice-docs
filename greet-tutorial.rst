@@ -6,7 +6,7 @@ Let's write simple app 'greet'. This app should contain at least one facet "some
 Create app structure
 #####################
 
-Use maven archetype "leverice-external-app-archetype" to create the maven project with needed structure.
+Project structure to create.
 
 * greet-app
    * pom.xml
@@ -101,17 +101,10 @@ But path to the file must match to the pattern "/src/main/groovy/${facetId}/"
 .. code-block:: groovy
 
  def greet(name) {
-  sendPost().messageBody("Hello, ${name}!").submit();
+  send "Hello, $name!"
  }
 
 Just add this to your groovy file to define "/greet" command with string "name" parameter.
-We use internal api "sendPost" method here. If we want to call existing "post" command from the command api we should implement it like that
-
-.. code-block:: groovy
-
- def greet(name) {
-  executeCommand(command: "/post -m \"Hello, ${name}!\"");
- }
 
 channel types
 ##################
@@ -120,14 +113,12 @@ channel types
 
 This is the place for the channel type descriptors. Skip it for this tutorial.
 
-:ref:`channel-type-reference-label`
-
 build zip archive to deploy
 ############################
 
 run "mvn clean assembly:single" to build the app. You can find it in the newly created "target" folder.
 
-pom.xml (you can use it to create app w/o maven archetype)
+.. rubric:: pom.xml
 
 .. code-block:: xml
 
