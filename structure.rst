@@ -6,15 +6,56 @@ Apps
 Apps in `Leverice <https://leverice.com/public/client/>`_ are sometimes called "plugins", but please, do not mix this with other messengers' plugins, as our plugins are much more powerful and should be rather seen as apps.
 App is a set of artifacts (assets, channel type descriptors, facet descriptors as well as the groovy scripts, that contain actual logic) that belong together and present a complete solution to some business problem.
 
-Facet
-########
-Any app contains of facets. Any facet extends channel functionality and give possibility to:
+Facets: Definition
+########################
+Let's talk about facets. Facet is a piece of configuration and code that provides some specific behaviour of a channel it is attached to.
+Think of facet as a java interface (however, groovy trait is more correct example, as together with logic, your facet may contain some state attached to the channel, user, workspace and so on).
 
-* define and set up new commands
-* run facet's commands in the channel with this facet
+You can add facets to any channel and get that additional functionality/behavior in that channel.
+
+Facets are added by calling a Leverice command "/addFacet <facetId>".
+
+Facet id is composed of two parts: app id and facet id, separated by dot. For example: "default.ontop", "default.noedit" or "trello.task".
+Application id (first part before dot) acts like a namespace to the facet. So, facet abc.someFacet is not the same as bcd.someFacet.
+
+There is a number of standard default facets in Leverice, that you can try to use straight away. Let's play around with them.
+
+Create a workspace called Leverice Tutorial, then create a folder "Facets Sandbox" on a top level. Under it, create three public channels: "Channel 1", "Channel 2", "Channel 3".
+
+Once you've done this, it should look like this in your Leverice:
+
+* Leverice Tutorial
+   * Facets Sandbox
+      * Channel 3
+      * Channel 2
+      * Channel 1
+
+Go to Channel 1 and post following message to the chat:
+
+.. code-block:: bash
+
+   /addFacet default.ontop
+
+This should bring your Channel 1 to the top among children. You can try the following facets to explore a bit:
+
+.. code-block:: bash
+
+   default.noWrite
+   default.noleave
+   default.noArchive
+   default.initMuted
+
+And see how it changes the channel behavior
+
+Facets: Custom Application Facets
+#######################################
+
+There is plenty of facets defined by Leverice (above you saw some examples), however, power of Leverice is more about extendability. As a Leverice Developer, you
+can create your own facets. Once you create your custom application facet, it will let you to:
+
+* define and set up new commands that can be either invoked by user or bound to some controls in Leverice
 * change channel icon to the facet specific
 * restrict to do some actions in the channel with this facet
-* define required facets that will be added with this facet to the channel
 
 You can set up facet in the app descriptor. It looks like this.
 
