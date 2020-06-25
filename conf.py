@@ -50,8 +50,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Leverice'
-copyright = '2020, Demian Belsky'
-author = 'Demian Belsky'
+copyright = '2020 Leverice, Inc.'
+author = 'Leverice Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

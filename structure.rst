@@ -54,8 +54,10 @@ There is plenty of facets defined by Leverice (above you saw some examples), how
 can create your own facets. Once you create your custom application facet, it will let you to:
 
 * define and set up new commands that can be either invoked by user or bound to some controls in Leverice
-* change channel icon to the facet specific
-* restrict to do some actions in the channel with this facet
+* change channel look and feel (for example, add custom icon to the channel)
+* add new channel context menu items and bind them to commands
+* add new post context menu items and bind them to commands
+and many more...
 
 You can set up facet in the app descriptor. It looks like this.
 
