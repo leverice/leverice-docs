@@ -9,9 +9,6 @@ This document contains descriptions of Leverice commands, listed alphabetically.
 * syntax
 * examples
 
-Overview
-========
-
 Each command starts with **slash (/)**. For example:
 
 .. code-block:: bash
