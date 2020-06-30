@@ -9,35 +9,6 @@ This document contains descriptions of Leverice commands, listed alphabetically.
 * syntax
 * examples
 
-Each command starts with **slash (/)**. For example:
-
-.. code-block:: bash
-
- /archive
- /unarchive
-
-Command may have different types of arguments listed below:
-
-* named string argument. It starts with **single minus (-)**. For example:
-
-.. code-block:: bash
-
- -m "message body"
- -name "Rodion"
-
-* named boolean argument. It starts with **two minuses (--)**. For example:
-
-.. code-block:: bash
-
- --make-private
- --pinned
-
-* unnamed arguments. Usually there are other words after command, which don't starts with minuses. For example in following `unarchive`_ command text **"MyReason"** is unnamed argument:
-
-.. code-block:: bash
-
- /unarchive "MyReason"
-
 archive
 #######
  Archives current channel. In terms of Leverice that means ending current discussion and hide this channel for current user and for others who suggest to archive this channel too. Archived channels may unarchive using `unarchive`_ command or by sending post to this channel

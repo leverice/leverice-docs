@@ -15,6 +15,7 @@ So, you do not need hosting or any external application to execute your business
    :maxdepth: 2
    :caption: Getting Started:
 
+   introduction
    structure
    greet-tutorial
    deploy-tutorial
@@ -24,6 +25,7 @@ So, you do not need hosting or any external application to execute your business
    :caption: Resources:
 
    descriptors/app.rst
+   references/channel-type-reference.rst
    references/command-reference.rst
 
 Indices and tables
