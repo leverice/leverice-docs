@@ -3,7 +3,7 @@ Architecture
 
 Apps
 ########
-Apps in `Leverice <https://leverice.com/public/client/>`_ are sometimes called "plugins", but please, do not mix this with other messengers' plugins, as our plugins are much more powerful and should be rather seen as apps.
+Apps in Leverice are sometimes called "plugins", but please, do not mix this with other messengers' plugins, as our plugins are much more powerful and should be rather seen as apps.
 App is a set of artifacts (assets, channel type descriptors, facet descriptors as well as the groovy scripts, that contain actual logic) that belong together and present a complete solution to some business problem.
 
 Facets: Definition
@@ -173,10 +173,10 @@ You can run any existing command like it was called from the frontend client or/
  }
 
 This code defines command "greet" that has one parameter "name". This command sends post to the current channel and greets somebody from the "name" parameter.
-Imagine this command added to the "greet" facet in the "polite" app. How to call it in the `Leverice <https://leverice.com/public/client/>`_
+Imagine this command added to the "greet" facet in the "polite" app. How to call it in the Leverice
 
-#. add facet to the channel (send "/addFacet polite.greet" w/o quotes as a common message in the `Leverice <https://leverice.com/public/client/>`_ workspace)
-#. run greet command in this channel (send "/greet -name John" w/o quotes as a common message in the `Leverice <https://leverice.com/public/client/>`_ workspace)
+#. add facet to the channel (send "/addFacet polite.greet" w/o quotes as a common message in the Leverice workspace)
+#. run greet command in this channel (send "/greet -name John" w/o quotes as a common message in the Leverice workspace)
 #. system sends message from you to this channel with the text "Hello, John!"
 
 Until you add this facet to the channel this command won't work.

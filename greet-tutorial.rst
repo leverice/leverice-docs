@@ -173,4 +173,4 @@ run "mvn clean assembly:single" to build the app. You can find it in the newly c
 
 Congratulations
 ############################
-You create the greet app for you `Leverice <https://leverice.com/public/client/>`_ workspace. Lets :ref:`deploy-reference-label`!
+You create the greet app for you Leverice workspace. Lets :ref:`deploy-reference-label`!

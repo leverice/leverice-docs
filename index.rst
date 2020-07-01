@@ -6,8 +6,8 @@
 Welcome to Leverice's documentation!
 ====================================
 
-`Leverice <https://leverice.com/public/client/>`_ is an open platform that lets you write your own applications,
-that actually run inside of `Leverice <https://leverice.com/public/client/>`_.
+Leverice is an open platform that lets you write your own applications,
+that actually run inside of Leverice.
 So, you do not need hosting or any external application to execute your business logic in our platform.
 
 
