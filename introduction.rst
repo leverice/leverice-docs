@@ -1,3 +1,5 @@
+.. _introduction-label:
+
 Introduction to Leverice
 ========================
 
@@ -28,7 +30,7 @@ You will see message like **"Your name archived this channel"**. If you switch f
 You will see message **"Channel unarchived by Your Name"** and channel will be returned in normal state. Let's talk about command types.
 
 Transaction support
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 Every command: single, chain of commands or commands for child channels runs in transaction. That means if there is any error during execution, all actions before error will be rolled back. For example, following command chain contains command for sending message and switching in not existing command:
 
