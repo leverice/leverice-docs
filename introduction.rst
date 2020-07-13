@@ -7,10 +7,9 @@ Introduction to Leverice
 
 It may sounds like a good advertisement, but what it actually means for us. Let's investigate it.
 
-How I meet my Leverice
-######################
+.. note::
 
-Many of the developer features that you will learn in this guide are not available in our live installation. If you want to try them in practice, you will need to register in our development program and get the Leverice Developer ID. Send your request to dev-program@leverice.com. Got Leverice Developer ID? Nice, then you need to login in Leverice using provided credentials.
+ Many of the developer features that you will learn in this guide are not available in our live installation. If you want to try them in practice, you will need to register in our development program and get the Leverice Developer ID. Send your request to dev-program@leverice.com. Got Leverice Developer ID? Nice, then you need to login in Leverice using provided credentials.
 
 Everything is a command
 #######################
