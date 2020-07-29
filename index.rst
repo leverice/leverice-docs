@@ -16,6 +16,7 @@ So, you do not need hosting or any external application to execute your business
    :caption: Getting Started:
 
    introduction
+   first-application
    structure
    greet-tutorial
    deploy-tutorial
