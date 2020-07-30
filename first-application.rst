@@ -102,7 +102,7 @@ It is a file **descriptor.json** which should be placed in **src/main/resources*
   "facets": [
     {
       "id": "simpleAppFacetId",
-      "name": "Simple Map Facet Name",
+      "name": "Simple App Facet Name",
       "requires": [
         "default.default"
       ],
