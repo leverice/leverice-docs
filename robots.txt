@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /cdn-cgi*
+Disallow: /search.html*
+
+Host: https://docs.leverice.com
+Sitemap: https://docs.leverice.com/sitemap.xml
