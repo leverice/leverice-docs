@@ -1,3 +1,6 @@
+.. meta::
+  :description: In this tutorial we will create and deploy application for Leverice. Make sure that you have Leverice Developer ID and access to developer installation.
+
 First application for Leverice: step by step
 ============================================
 

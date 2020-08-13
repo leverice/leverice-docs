@@ -1,3 +1,6 @@
+.. meta::
+  :description: This document contains descriptions channel types, listed alphabetically.
+
 .. _channel-type-reference-label:
 
 Channel Type Reference

@@ -1,3 +1,6 @@
+.. meta::
+  :description: This document contains all the technical information about the architecture of Leverice infrastructure.
+
 Architecture
 ===================
 

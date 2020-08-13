@@ -1,3 +1,6 @@
+.. meta::
+  :description: You have zip archive with application. We must deploy it to the workspace to use it. Let’s do it.
+
 .. _deploy-reference-label:
 
 Deploy an app into the workspace

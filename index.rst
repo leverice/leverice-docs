@@ -1,3 +1,6 @@
+.. meta::
+   :description: Leverice is an open platform that lets you write your own applications, that actually run inside of Leverice. So, you do not need hosting or any external application to execute your business logic in our platform.
+
 .. Leverice documentation master file, created by
    sphinx-quickstart on Tue Jun 23 08:35:55 2020.
    You can adapt this file completely to your liking, but it should at least

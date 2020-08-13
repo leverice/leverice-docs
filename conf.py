@@ -119,6 +119,8 @@ htmlhelp_basename = 'Levericedoc'
 html_baseurl = 'https://docs.leverice.com/'
 html_extra_path = ['robots.txt']
 
+html_favicon = 'favicon.ico'
+
 
 # -- Options for LaTeX output ---------------------------------------------
 

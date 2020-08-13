@@ -1,3 +1,6 @@
+.. meta::
+  :description: Leverice is a platform designed to be a powerful engine of team management and productivity: fueled by focus, not distraction.
+
 .. _introduction-label:
 
 Introduction to Leverice

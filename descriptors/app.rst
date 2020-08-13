@@ -1,3 +1,6 @@
+.. meta::
+  :description: This document contains all the technical information about app descriptors.
+
 .. _app-desc-reference-label:
 
 App descriptor

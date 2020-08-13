@@ -1,3 +1,6 @@
+.. meta::
+  :description: This document contains descriptions of Leverice commands, listed alphabetically.
+
 .. _command-reference-label:
 
 Command Reference

@@ -1,3 +1,6 @@
+.. meta::
+  :description: Let’s write simple app ‘greet’. This app should contain at least one facet “someone” and one command “greet” in this facet.
+
 Simple greet app tutorial
 ===========================
 
