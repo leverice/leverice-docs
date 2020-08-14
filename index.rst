@@ -35,5 +35,4 @@ So, you do not need hosting or any external application to execute your business
 Indices and tables
 ==================
 
-* :ref:`genindex`
 * :ref:`search`
