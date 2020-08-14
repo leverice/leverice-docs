@@ -117,7 +117,7 @@ htmlhelp_basename = 'Levericedoc'
 
 
 html_baseurl = 'https://docs.leverice.com/'
-html_extra_path = ['robots.txt']
+html_extra_path = ['robots.txt', 'googlee1359c3949f88636.html']
 
 html_favicon = 'favicon.ico'
 
