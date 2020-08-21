@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /cdn-cgi*
 Disallow: /search.html*
-Disallow: /./*
+Disallow: /*.*/*
 
 Host: https://docs.leverice.com
 Sitemap: https://docs.leverice.com/sitemap.xml
