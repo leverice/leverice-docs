@@ -172,7 +172,7 @@ And the successful response will be:
         }
     ],
     "status": "success",
-    "correlationId": "LVRC:123322:1"
+    "correlationId": "LVRC:123321:1"
     }
  }
 
