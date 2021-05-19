@@ -145,7 +145,6 @@ And the successful response will be:
 .. code-block:: json
 
  {
-    {
     "messageType": "COMMAND_EXECUTED_CLIENT_MESSAGE",
     "events": [
         {
@@ -172,8 +171,7 @@ And the successful response will be:
         }
     ],
     "status": "success",
-    "correlationId": "LVRC:123321:1"
-    }
+    "correlationId": "LVRC:123324:1"
  }
 
 /deactivateUsers
