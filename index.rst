@@ -34,7 +34,7 @@ So, you do not need hosting or any external application to execute your business
 
 .. toctree::
    :maxdepth: 2
-   :caption: WAPI
+   :caption: WAPI:
 
    wapi/wapi.rst
 
