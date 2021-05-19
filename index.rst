@@ -32,6 +32,12 @@ So, you do not need hosting or any external application to execute your business
    references/channel-type-reference.rst
    references/command-reference.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: WAPI
+
+   wapi/wapi.rst
+
 Indices and tables
 ==================
 
