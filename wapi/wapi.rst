@@ -6,13 +6,13 @@
 Leverice Web API
 ================
 
-Activating WebAPI in the Leverice workspace
+Activating Web API in the Leverice workspace
 ########
 
-Follow this steps to activate WebAPI:
+Follow this steps to activate Web API:
 
 - Execute the following command in any workspace channel as a Workspace Administrator: /createWapi -botName "Leverice"
-- Copy and save the link from the popup window that appeared on the screen - this is the WebAPI URL to access Leverice API
+- Copy and save the link from the popup window that appeared on the screen - this is the Web API URL to access Leverice API
 
 What request template to use on the URL
 ################
@@ -114,7 +114,7 @@ A JSON response will contain following properties:
 
 Other properties of the response depend on the request type.
 
-What operations work in WebAPI
+What operations work in Web API
 ################
 
 /inviteUser
