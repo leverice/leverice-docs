@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  sphinx-image:
+    image: main-registry.softwaretravel.net/leverice/sphinx:4.0.1
+    build:
+      args:
+        SPHINX_TAG: "4.0.1"
+      context: .
+      dockerfile: Dockerfile

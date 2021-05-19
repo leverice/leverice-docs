@@ -291,7 +291,7 @@ Example response:
     "messageType": "WAPI_EXECUTED_CLIENT_MESSAGE",
     "message": "Channels list",
     "status": "success",
-    "correlationId": "LVRC:123321:1"
+    "correlationId": "LVRC:123321:1",
     "result": {
         "2F4CHZT7epT": {
             "name": "direct",
