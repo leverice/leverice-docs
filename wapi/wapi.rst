@@ -7,15 +7,19 @@ Leverice Web API
 ================
 
 Activating Web API in the Leverice workspace
-########
+############################################
 
 Follow this steps to activate Web API:
 
-- Execute the following command in any workspace channel as a Workspace Administrator: /createWapi -botName "Leverice"
+- Execute the following command in any workspace channel as a Workspace Administrator:
+.. code-block:: shell
+
+ /createWapi -botName "Leverice"
+
 - Copy and save the link from the popup window that appeared on the screen - this is the Web API URL to access Leverice API
 
 What request template to use on the URL
-################
+#######################################
 
 On this URL we can POST requests. POST requests have two headers and payload.
 
