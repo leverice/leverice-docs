@@ -38,6 +38,12 @@ So, you do not need hosting or any external application to execute your business
 
    wapi/wapi.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Webhook Bot:
+
+   webhook/webhook.rst
+
 Indices and tables
 ==================
 
