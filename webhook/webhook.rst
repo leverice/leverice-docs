@@ -199,7 +199,7 @@ How it’ll look in the channel itself:
 Structured matter
 --------
 
-Structured matter allows you to create any hierarchy of events you want by using the “childMatter” parameter.
+Structured matter allows you to create any hierarchy of events you want by using the "childMatter" parameter.
 
 The payload:
 
