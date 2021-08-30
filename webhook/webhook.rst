@@ -301,6 +301,6 @@ How it’ll look in the events channel:
 
 .. image:: images/attentionEvents.png
 
-How it’ll look in the “Security realms” channel:
+How it’ll look in the "Security realms" channel:
 
 .. image:: images/attentionSequrityRealms.png
