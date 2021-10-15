@@ -23,6 +23,7 @@ So, you do not need hosting or any external application to execute your business
    structure
    greet-tutorial
    deploy-tutorial
+   skype/skype.rst
 
 .. toctree::
    :maxdepth: 2
